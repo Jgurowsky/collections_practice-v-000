@@ -40,7 +40,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-
+  array.inject{|sum, n| sum + n}
 end
 
 #print swap_elements_from_to(array, 0, 2)
