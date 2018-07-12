@@ -36,7 +36,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.select {|x| x.start_with?("a")}
+  array.select{|x| x.start_with?("a")}
 end
 
 #print swap_elements_from_to(array, 0, 2)
