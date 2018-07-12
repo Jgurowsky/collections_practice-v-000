@@ -43,5 +43,8 @@ def sum_array(array)
   array.inject{|sum, n| sum + n}
 end
 
+def add_s
+end
+
 #print swap_elements_from_to(array, 0, 2)
 print kesha_maker(array)
