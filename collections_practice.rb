@@ -46,9 +46,9 @@ end
 def add_s(array)
   array.each_with_index.collect do |x, index|
     if index == 1
-      word
+      x
     else
-      word + "s"
+      x + "s"
     end
   end
 end
