@@ -36,6 +36,7 @@ def kesha_maker(array)
     collection[2] = "$"
     y << collection.join
   end
+  y
 end
 
 #print swap_elements_from_to(array, 0, 2)
