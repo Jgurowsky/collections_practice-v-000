@@ -32,8 +32,8 @@ def kesha_maker(array)
     collection = x.split('')
     collection[2] = "$"
     collection.join
-    array
   end
+  array
 end
 
 #print swap_elements_from_to(array, 0, 2)
