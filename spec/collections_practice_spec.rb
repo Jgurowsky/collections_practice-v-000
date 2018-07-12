@@ -33,7 +33,7 @@ describe 'collections practice' do
   # Question 4.5
   describe '#swap_elements_from_to' do
     it 'swaps the the and third elements of an array' do
-      expect(swap_elements_from_to(["jon", "jim", "bob"])).to eq(["bob", "jim", "jon"])
+      expect(swap_elements_from_to(["jon", "jim", "bob"], 0, 2)).to eq(["bob", "jim", "jon"])
     end
   end
 
