@@ -1,6 +1,6 @@
-require 'pry'
+#require 'pry'
 
-array = ["jon", "bob", "jim"]
+#array = ["jon", "bob", "jim"]
 
 def sort_array_asc(array)
   array.sort
@@ -54,4 +54,4 @@ def add_s(array)
 end
 
 #print swap_elements_from_to(array, 0, 2)
-print kesha_maker(array)
+#print kesha_maker(array)
