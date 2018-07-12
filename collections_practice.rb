@@ -39,5 +39,9 @@ def find_a(array)
   array.select{|x| x.start_with?("a")}
 end
 
+def sum_array(array)
+
+end
+
 #print swap_elements_from_to(array, 0, 2)
 print kesha_maker(array)
