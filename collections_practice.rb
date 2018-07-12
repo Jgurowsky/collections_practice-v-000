@@ -22,5 +22,5 @@ def swap_elements_from_to(array, index, destination)
   array
 end
 
-puts swap_elements(array)
-puts swap_elements_from_to(array, 1, 2)
+print swap_elements(array)
+print swap_elements_from_to(array, 1, 2)
