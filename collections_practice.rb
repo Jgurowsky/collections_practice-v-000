@@ -34,6 +34,7 @@ def kesha_maker(array)
     collection = x.split('')
     collection[2] = "$"
     collection.join
+    binding.pry
   end
 end
 
