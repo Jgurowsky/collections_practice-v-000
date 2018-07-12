@@ -1,3 +1,5 @@
+require 'pry'
+
 array = ["jon", "bob", "jim"]
 
 def sort_array_asc(array)
