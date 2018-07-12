@@ -34,4 +34,5 @@ def kesha_maker(array)
   end
 end
 
-print swap_elements_from_to(array, 0, 2)
+#print swap_elements_from_to(array, 0, 2)
+puts kesha_maker(array)
