@@ -23,4 +23,4 @@ def swap_elements_from_to(array, index, destination)
 end
 
 puts swap_elements(array)
-#swap_elements_from_to(array, 1, 2)
+puts swap_elements_from_to(array, 1, 2)
