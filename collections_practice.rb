@@ -29,7 +29,7 @@ end
 
 def kesha_maker(array)
   array.each do |x|
-    x.split
+    x.split('')
 
   end
 end
