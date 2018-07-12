@@ -23,3 +23,4 @@ def swap_elements_from_to(array, index, destination)
 end
 
 swap_elements_from_to(array, 1, 2)
+array
