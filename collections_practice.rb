@@ -44,6 +44,13 @@ def sum_array(array)
 end
 
 def add_s(array)
+  array.each_with_index.collect do |x, index|
+    if index == 1
+      word
+    else
+      word + "s"
+    end
+  end
 end
 
 #print swap_elements_from_to(array, 0, 2)
