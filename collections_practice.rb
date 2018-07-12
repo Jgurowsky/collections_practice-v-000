@@ -35,6 +35,7 @@ def kesha_maker(array)
     collection = x.split('')
     collection[2] = "$"
     y << collection.join
+    puts y
   end
 end
 
