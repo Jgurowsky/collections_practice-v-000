@@ -32,7 +32,7 @@ def kesha_maker(array)
     collection = x.split('')
     collection[2] = "$"
     collection.join
-    collection
+    array
   end
 end
 
