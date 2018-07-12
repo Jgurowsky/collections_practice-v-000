@@ -33,7 +33,7 @@ def kesha_maker(array)
   array.each do |x|
     collection = x.split('')
     collection[2] = "$"
-    y = collection.join
+    y << collection.join
     binding.pry
   end
 end
